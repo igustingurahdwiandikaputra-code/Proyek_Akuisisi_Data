@@ -1,46 +1,17 @@
-#Data Acquisition and Management
-# Data Acquisition and Management
-
-## Informasi Proyek
-
-* **Mata Kuliah:** Akuisisi dan Manajemen Data
-* **Kode Mata Kuliah:** BIFP-243
-* **Topik:** Data Acquisition Lifecycle
-* **Bahasa Pemrograman:** Python
-
-## Deskripsi
-
-Proyek ini mendokumentasikan tahapan siklus hidup data, mulai dari akuisisi, penyimpanan, pembersihan, transformasi, analisis, hingga penyampaian hasil. Dokumentasi mencakup tools yang dapat digunakan dan risiko yang perlu diperhatikan pada setiap tahap.
+# Proyek Akuisisi dan Manajemen Data
+Mata kuliah : BIFP-243 Akuisisi dan Manajemen Data
+Nama / NIM  : I Gusti Ngurah Dwi Andika Putra / 2501010016
+Tujuan      : -
 
 ## Struktur Folder
+- data/raw        : data mentah hasil akuisisi (READ-ONLY)
+- data/interim    : hasil antara (cleaning, transformasi)
+- data/processed  : dataset final siap analisis
+- notebooks       : notebook praktikum
+- src             : script Python yang dapat digunakan ulang
+- docs            : data dictionary dan metadata
+- reports         : laporan kualitas data
 
-```text
-proyek_data_akuisisi/
-├── data/
-│   ├── raw/          # Data asli, tidak diubah
-│   ├── interim/      # Data sementara
-│   └── processed/    # Data yang sudah diproses
-├── notebooks/        # Notebook analisis
-├── src/              # Source code
-├── docs/             # Dokumentasi
-├── reports/          # Laporan dan hasil analisis
-└── README.md
-```
-
-## Tools
-
-* Python
-* pandas
-* NumPy
-* Requests
-* Beautiful Soup
-* Git dan GitHub
-* Google Colab
-
-## Reproducibility
-
-Proyek ini disusun agar tahapan pengelolaan data dapat ditelusuri dan diulang. Data mentah disimpan terpisah dari data sementara dan data hasil pemrosesan. Kode, dokumentasi, serta notebook ditempatkan pada direktori masing-masing agar struktur proyek konsisten. Versi Python dan pustaka yang digunakan perlu dicatat untuk membantu proses reproduksi. Sebelum menjalankan notebook, pastikan dependensi yang dibutuhkan telah tersedia dan sumber data yang digunakan dapat diakses. Setiap perubahan kode dan dokumentasi dicatat menggunakan Git agar riwayat pekerjaan dapat diperiksa kembali.
-
-## Catatan
-
-Folder `data/raw/` digunakan untuk menyimpan data asli dan sebaiknya tidak diubah secara langsung.
+## Cara Menjalankan Ulang
+1. pip install -r requirements.txt
+2. Jalankan notebook di folder notebooks secara berurutan
