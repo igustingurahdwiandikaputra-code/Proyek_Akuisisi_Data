@@ -1,6 +1,8 @@
 # Proyek Akuisisi dan Manajemen Data
 Mata kuliah : BIFP-243 Akuisisi dan Manajemen Data
+
 Nama / NIM  : I Gusti Ngurah Dwi Andika Putra / 2501010016
+
 Tujuan      : -
 
 ## Struktur Folder
